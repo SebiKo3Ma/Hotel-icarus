@@ -1,5 +1,8 @@
+
 body{
-    background-color: #ffa62b;
+    background-color: #adb5bd;
+    margin: 0;
+    padding: 0;
 }
 
 h2{
@@ -7,33 +10,10 @@ h2{
   margin-right: 10px;
 }
 
+@media (min-width: 1000px){
 .main{
-  background-color: #16697a;
-  border-radius: 10px;
   display: flex;
   justify-content: space-between;
-  font-family: Permanent Marker;
-}
-
-.title{
-  margin-left: 20px;
-}
-
-.main a:link{
-  color: #db6400;
-  text-decoration: none;
-}
-
-.main a:visited{
-  color: #db6400;
-  text-decoration: none;
-}
-
-.main a:active{
-  background-color: #ffa62b;
-  color: #fff;
-  border-radius: 10px;
-  transition: .5s ease;
 }
 
 .menuSelectors{
@@ -44,8 +24,42 @@ h2{
   justify-content: space-around;
 }
 
+}
+
+.main{
+  background-color: #212529;
+  border-radius: 10px;
+  font-family: Permanent Marker;
+}
+
+.title{
+  margin-left: 20px;
+}
+
+.logo{
+  width: 200px;
+  height: auto;
+}
+
+.main a:link{
+  color: #adb5bd;
+  text-decoration: none;
+}
+
+.main a:visited{
+  color: #adb5bd;
+  text-decoration: none;
+}
+
+.main a:active{
+  background-color: #343a40;
+  color: #fff;
+  border-radius: 10px;
+  transition: .5s ease;
+}
+
 .menuSelectors a:hover{
-  background-color: #ffa62b;
+  background-color: #343a40;
   color: #fff;
   border-radius: 10px;
   transition: .5s ease;
