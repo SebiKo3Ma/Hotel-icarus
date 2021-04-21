@@ -24,11 +24,14 @@ h2{
   justify-content: space-around;
 }
 
+.content{
+  width: 99%;
+}
+
 }
 
 .main{
   background-color: #212529;
-  border-radius: 10px;
   font-family: Permanent Marker;
 }
 
@@ -39,6 +42,7 @@ h2{
 .logo{
   width: 200px;
   height: auto;
+  margin-top: 7px;
 }
 
 .main a:link{
@@ -66,63 +70,49 @@ h2{
 }
 
 .header{
-  background-color: #db6400;
+  width: 100%;
   margin-top: 10px;
-  border-radius: 10px;
   display: flex;
   justify-content: space-around;
   font-family: Permanent Marker;
+  position: absolute;
 }
 
 .header a:link{
-  color: #ffa62b;
+  color: #adb5bd;
   text-decoration: none;
 }
 
 .header a:visited{
-  color: #ffa62b;
+  color: #adb5bd;
   text-decoration: none;
 }
 
 .header a:hover{
-  background-color: #ffa62b;
+  background-color: #ced4da;
   color: #fff;
   border-radius: 10px;
   transition: .5s ease;
 }
 
 .container{
-  display: flex;
-  justify-content: space-around;
   margin-top: 10px;
   font-family: Permanent Marker;
-}
-
-img{
-  width: 400px;
-  height:auto;
-  border-radius: 10px;
-  margin-left: 50px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  position: relative;
 }
 
 .content{
-  width: 75%;
   background-color: #fff;
   border-radius: 10px;
 }
 
-.sidebar{
-  width: 20%;
-  background-color: #fff;
+.front{
   border-radius: 10px;
-  height:800px;
+  width: 100%;
 }
 
 .footer{
   height: 50px;
-  background-color: #16697a;
-  border-radius: 10px;
+  background-color: #343a40;
   margin-top: 10px;
 }
