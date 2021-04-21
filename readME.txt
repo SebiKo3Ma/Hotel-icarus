@@ -26,3 +26,6 @@ https://www.agoda.com/keio-plaza-hotel-tokyo_3/hotel/tokyo-jp.html?cid=1844104
 https://www.marriott.com/hotels/hotel-photos/szxxr-the-st-regis-shenzhen/
 https://ro.pinterest.com/iley_c/modern-banquet-halls/
 https://weddingz.in/blog/luxury-venues-in-dwarka-delhi-to-plan-your-wedding-celebrity-style/
+
+Color palette:
+https://coolors.co/f8f9fa-e9ecef-dee2e6-ced4da-adb5bd-6c757d-495057-343a40-212529
