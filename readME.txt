@@ -4,15 +4,15 @@ Profesori îndrumători: Bohm Cristina, Iordaiche Eugenia-Cristina
 
 Rezervări: Cameră, Sală de conferințe sau Sală de evenimente
 
-Camere - 11 - Standard matrimonial (50)
-	 12 - Standard twin (50)
+Camere - 11 - Standard matrimonial (20)
+	 12 - Standard twin (20)
 	 13 - Standard Suite  (5)
-	 14 - Deluxe matrimonial (20)
-	 15 - Deluxe Twin (20)	
+	 14 - Deluxe matrimonial (10)
+	 15 - Deluxe Twin (10)	
 	 16 - Deluxe Suite  (1)
 
-Săli de conferințe - 21 - Sală mică (max 20 pers.) (10)
-		     22 - Sală medie (max 50 pers.) (5)
+Săli de conferințe - 21 - Sală mică (max 20 pers.) (5)
+		     22 - Sală medie (max 50 pers.) (2)
 		     23 - Sală mare (max 100 pers.) (1)
 
 Săli de evenimete - 31 - Sală medie (max 200 pers.) (2)
