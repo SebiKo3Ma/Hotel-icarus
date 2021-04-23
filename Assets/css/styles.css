@@ -10,8 +10,11 @@ h2{
   margin-right: 10px;
 }
 
+
+
+
 @media (min-width: 1000px){
-.main{
+.headerItems{
   display: flex;
   justify-content: space-between;
 }
@@ -26,18 +29,50 @@ h2{
 
 .content{
   width: 99%;
-}
-
-}
-
-.main{
-  background-color: #212529;
-  font-family: Permanent Marker;
+  margin-left: 0.5%;
 }
 
 .title{
   margin-left: 20px;
 }
+
+.dropdown{
+  display: none;
+}
+
+}
+
+@media (max-width: 1000px){
+  .headerItems{
+      width: 50%;
+      margin: auto;
+  }
+
+  .menuItem{
+    text-align: center;
+  }
+
+  .dropdown{
+    font-size: 20pt;
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+
+
+}
+
+
+
+.icons{
+  display: flex;
+  justify-content: space-around;
+}
+
+.header{
+  background-color: #212529;
+  font-family: Permanent Marker;
+}
+
 
 .logo{
   width: 200px;
@@ -45,38 +80,7 @@ h2{
   margin-top: 7px;
 }
 
-.main a:link{
-  color: #adb5bd;
-  text-decoration: none;
-}
 
-.main a:visited{
-  color: #adb5bd;
-  text-decoration: none;
-}
-
-.main a:active{
-  background-color: #343a40;
-  color: #fff;
-  border-radius: 10px;
-  transition: .5s ease;
-}
-
-.menuSelectors a:hover{
-  background-color: #343a40;
-  color: #fff;
-  border-radius: 10px;
-  transition: .5s ease;
-}
-
-.header{
-  width: 100%;
-  margin-top: 10px;
-  display: flex;
-  justify-content: space-around;
-  font-family: Permanent Marker;
-  position: absolute;
-}
 
 .header a:link{
   color: #adb5bd;
@@ -88,7 +92,41 @@ h2{
   text-decoration: none;
 }
 
-.header a:hover{
+.header a:active{
+  background-color: #343a40;
+  color: #fff;
+  border-radius: 10px;
+  transition: .5s ease;
+}
+.menuSelectors a:hover{
+  background-color: #343a40;
+  color: #fff;
+  border-radius: 10px;
+  transition: .5s ease;
+}
+
+
+
+.nav{
+  width: 100%;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+  font-family: Permanent Marker;
+  position: absolute;
+}
+
+.nav a:link{
+  color: #adb5bd;
+  text-decoration: none;
+}
+
+.nav a:visited{
+  color: #adb5bd;
+  text-decoration: none;
+}
+
+.nav a:hover{
   background-color: #ced4da;
   color: #fff;
   border-radius: 10px;
