@@ -7,23 +7,32 @@
       <script type="text/javascript" src="Assets/scripts/jquery-3.4.1.min.js"></script>
       <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
       <link rel="stylesheet" type="text/css" href="Assets/css/styles.css">
+      <script src="https://kit.fontawesome.com/9344dd445e.js" crossorigin="anonymous"></script>
     </head>
     <body>
-      <div class="main">
-        <div class="title">
-      <a href="index.html"><img class="logo" src="Assets/images/logo.png"</a>
+      <div class="header">
+        <div class="headerItems">
+          <div class="icons">
+            <div class="title">
+              <a href="index.html"><img class="logo" src="Assets/images/logo.png"</a>
+          </div>
+            <div class="dropdown">
+              <a class="btn" href="#" id="dropdown"><i class="fas fa-chevron-circle-down"></i></a>
+            </div>
+          </div>
+      <div id="menuSelectors" class="menuSelectors showMenuFalse">
+        <a href="camere.html" class="menuItem"><h2>Camere</h2></a>
+        <a href="conferinte.html" class="menuItem"><h2>Conferinte</h2></a>
+        <a href="evenimente.html" class="menuItem"><h2>Evenimente</h2></a>
+        <a href="restaurant.html" class="menuItem"><h2>Restaurant</h2></a>
+        <a href="rezervari.html" class="menuItem"><h2><u>Rezervari</u></h2></a>
+        <a href="contact.html" class="menuItem"><h2>Contact</h2></a>
+      </div>
+      </div>
     </div>
-      <div class="menuSelectors">
-        <a href="camere.html"><h2>Camere</h2></a>
-        <a href="conferinte.html"><h2>Conferinte</h2></a>
-        <a href="evenimente.html"><h2>Evenimente</h2></a>
-        <a href="restaurant.html"><h2>Restaurant</h2></a>
-        <a href="rezervari.html"><h2><u>Rezervari</u></h2></a>
-        <a href="contact.html"><h2>Contact</h2></a>
-      </div>
-      </div>
 
     <div class="footer">
     </div>
+    <script src="Assets/scripts/dropdown.js"></script>
     </body>
   </html>

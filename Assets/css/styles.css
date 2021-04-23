@@ -27,10 +27,6 @@ h2{
   justify-content: space-around;
 }
 
-.content{
-  width: 99%;
-  margin-left: 0.5%;
-}
 
 .title{
   margin-left: 20px;
@@ -38,6 +34,24 @@ h2{
 
 .dropdown{
   display: none;
+  transition: .5s ease;
+}
+
+.nav, .details{
+  position: absolute;
+}
+
+.container{
+  position: relative;
+}
+
+.bgImage{
+  width: 99%;
+  margin-left: 0.5%;
+}
+
+.grid-container{
+  grid-template-columns: auto auto;
 }
 
 }
@@ -58,6 +72,20 @@ h2{
     margin-left: 10px;
   }
 
+  .showMenuFalse{
+    display: none;
+  }
+
+  .menuSelectors{
+    padding-bottom: 10px;
+  }
+
+  .container{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column-reverse;
+    border-radius: 10px;
+  }
 
 }
 
@@ -98,6 +126,7 @@ h2{
   border-radius: 10px;
   transition: .5s ease;
 }
+
 .menuSelectors a:hover{
   background-color: #343a40;
   color: #fff;
@@ -113,7 +142,6 @@ h2{
   display: flex;
   justify-content: space-around;
   font-family: Permanent Marker;
-  position: absolute;
 }
 
 .nav a:link{
@@ -136,17 +164,19 @@ h2{
 .container{
   margin-top: 10px;
   font-family: Permanent Marker;
-  position: relative;
 }
 
-.content{
-  background-color: #fff;
+.bgImage{
   border-radius: 10px;
 }
 
 .front{
   border-radius: 10px;
   width: 100%;
+}
+
+.grid-container{
+  display: grid;
 }
 
 .footer{
