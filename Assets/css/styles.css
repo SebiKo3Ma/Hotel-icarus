@@ -51,7 +51,7 @@ h2{
 }
 
 .grid-container{
-  grid-template-columns: auto auto;
+  grid-template-columns: 49% 49%;
 }
 
 }
@@ -85,6 +85,17 @@ h2{
     display: flex;
     flex-direction: column-reverse;
     border-radius: 10px;
+  }
+
+  .grid-item{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column-reverse;
+    border-radius: 10px;
+  }
+
+  .grid-container{
+    grid-template-columns: 98%;
   }
 
 }
@@ -177,6 +188,11 @@ h2{
 
 .grid-container{
   display: grid;
+  justify-content: space-around;
+}
+
+.grid-item{
+  margin-top: 10px;
 }
 
 .footer{
