@@ -54,6 +54,10 @@ h2{
   grid-template-columns: 49% 49%;
 }
 
+.menuItem{
+  padding-top: 4px;
+}
+
 }
 
 @media (max-width: 1000px){
@@ -110,7 +114,8 @@ h2{
 
 .header{
   background-color: #212529;
-  font-family: Permanent Marker;
+  font-family: 'Josefin Sans';
+
 }
 
 
@@ -153,7 +158,7 @@ h2{
   margin-top: 10px;
   display: flex;
   justify-content: space-around;
-  font-family: Permanent Marker;
+  font-family: 'Josefin Sans';
 }
 
 .nav a:link{
@@ -175,7 +180,7 @@ h2{
 
 .container{
   margin-top: 10px;
-  font-family: Permanent Marker;
+  font-family: 'Josefin Sans';
 }
 
 .bgImage{
