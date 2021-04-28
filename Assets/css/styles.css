@@ -37,7 +37,7 @@ h2{
   transition: .5s ease;
 }
 
-.nav, .details{
+.nav, .details, .restNav{
   position: absolute;
 }
 
@@ -153,12 +153,13 @@ h2{
 
 
 
-.nav{
+.nav, .restNav{
   width: 100%;
   margin-top: 10px;
   display: flex;
   justify-content: space-around;
   font-family: 'Josefin Sans';
+  z-index: 1;
 }
 
 .nav a:link{
@@ -171,7 +172,21 @@ h2{
   text-decoration: none;
 }
 
-.nav a:hover{
+.restNav a:link{
+  color: #adb5bd;
+  text-decoration: none;
+  background-color: rgba(33, 37, 41, 0.5);
+  border-radius: 10px;
+}
+
+.restNav a:visited{
+  color: #adb5bd;
+  text-decoration: none;
+  background-color: rgba(33, 37, 41, 0.5);
+  border-radius: 10px;
+}
+
+.nav a:hover, .restNav a:hover{
   background-color: #ced4da;
   color: #fff;
   border-radius: 10px;
@@ -206,6 +221,10 @@ h2{
 }
 
 #dxSuite2 {
+  display: none;
+}
+
+#rest2{
   display: none;
 }
 
