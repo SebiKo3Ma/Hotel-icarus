@@ -45,6 +45,16 @@ h2{
   position: relative;
 }
 
+.content{
+  background-color: #fff;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  border-radius: 10px;
+  height: 1250px;
+}
+
 .bgImage{
   width: 99%;
   margin-left: 0.5%;
@@ -91,6 +101,15 @@ h2{
     flex-direction: column-reverse;
     border-radius: 10px;
   }
+
+.content{
+  background-color: #fff;
+  border-radius: 10px;
+  width: 97%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
 
   .grid-item{
     background-color: #fff;
