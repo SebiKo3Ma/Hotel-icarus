@@ -8,15 +8,15 @@ Camere - 11 - Standard matrimonial (20)
 	 12 - Standard twin (20)
 	 13 - Standard Suite  (5)
 	 14 - Deluxe matrimonial (10)
-	 15 - Deluxe Twin (10)	
+	 15 - Deluxe Twin (10)
 	 16 - Deluxe Suite  (1)
 
-Săli de conferințe - 21 - Sală mică (max 20 pers.) (5)
-		     22 - Sală medie (max 50 pers.) (2)
-		     23 - Sală mare (max 100 pers.) (1)
+Săli de conferințe - 21 - Sală boardroom (max 20 pers.) (5)
+		     22 - Sală traffic (max 50 pers.) (2)
+		     23 - Sală connect (max 100 pers.) (1)
 
 Săli de evenimete - 31 - Sală medie (max 200 pers.) (2)
-		    32 - Sală mare (max 400 pers.)  (1)	
+		    32 - Sală mare (max 400 pers.)  (1)
 
 
 Poze:

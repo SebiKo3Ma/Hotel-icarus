@@ -2,7 +2,7 @@
   <html>
     <head>
       <meta charset="UTF-8">
-      <title>Pagina Principală</title>
+      <title>Rezervări</title>
       <meta name="viewport" content="width=device-width,initial-scale=1">
       <script type="text/javascript" src="Assets/scripts/jquery-3.4.1.min.js"></script>
       <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -37,44 +37,125 @@
       <form id="contact" align="center" action="contact.php" method="POST">
         <h1 class="formTitle">Rezervă o cameră:</h1>
         <br><br>
+
         <label for="lastName">Nume:</label><br>
         <input type="text" name="lastName" required><br><br>
+
         <label for="firstName">Prenume:</label><br>
         <input type="text" name="firstName" required><br><br>
+
+        <label for="tel">Telefon:</label><br>
+        <input type="tel" name="tel" required><br><br>
+
         <label for="email">Email:</label><br>
         <input type="email" name="email" required><br><br>
-        <label for="message">Mesaj:</label><br>
-        <textarea rows="7" cols="40"></textarea><br><br>
-        <input type="reset" value="Șterge">
-        <input type="submit" value="Trimite">
+
+        <label for="adress">Adresa:</label><br>
+        <textarea name="adress" rows="3" cols="45"></textarea><br><br>
+
+        <label for="tip">Alegeți un tip de cameră: </label><br><br>
+         <select id="tip" name="tip">
+           <option value="11">Standard Matrimonial</option>
+           <option value="12">Standard Twin</option>
+           <option value="13">Standard Suite</option>
+           <option value="14">Deluxe Matrimonial</option>
+           <option value="15">Deluxe Twin</option>
+           <option value="16">Deluxe Suite</option>
+         </select><br><br>
+
+         <label for="arrDate">Data sosirii:</label><br>
+         <input type="date" name="arrDate" required><br><br>
+
+         <label for="depDate">Data plecării:</label><br>
+         <input type="date" name="depDate" required><br><br>
+
+        <input class="formBtn" type="reset" value="Șterge">
+        <input class="formBtn" type="submit" value="Trimite">
       </form>
+
       <br>
       <form id="contact" align="center" action="contact.php" method="POST">
         <h1 class="formTitle">Rezervă o sală de <br> conferințe:</h1>
+
         <label for="lastName">Nume:</label><br>
         <input type="text" name="lastName" required><br><br>
+
         <label for="firstName">Prenume:</label><br>
         <input type="text" name="firstName" required><br><br>
+
+        <label for="tel">Telefon:</label><br>
+        <input type="tel" name="tel" required><br><br>
+
         <label for="email">Email:</label><br>
         <input type="email" name="email" required><br><br>
-        <label for="message">Mesaj:</label><br>
-        <textarea rows="7" cols="40"></textarea><br><br>
-        <input type="reset" value="Șterge">
-        <input type="submit" value="Trimite">
+
+        <label for="adress">Adresa:</label><br>
+        <textarea name="adress" rows="3" cols="45"></textarea><br><br>
+
+        <label for="tip">Alegeți un tip de sală de conferințe: </label><br><br>
+         <select id="tip" name="tip">
+           <option value="21">Sală Boardroom</option>
+           <option value="22">Sală Traffic</option>
+           <option value="23">Sala Connect</option>
+         </select><br><br>
+
+         <label for="arrDate">Data:</label><br>
+         <input type="date" name="Date" required><br><br>
+
+         <div style="display: flex; justify-content:space-around;">
+
+           <div>
+             <label for="startTime">Ora începerii:</label><br>
+             <input type="time" name="startTime" required><br><br>
+           </div>
+
+           <div>
+           <label for="endTime">Ora încheierii:</label><br>
+           <input type="time" name="endTime" required><br><br>
+         </div>
+
+       </div>
+
+        <input class="formBtn" type="reset" value="Șterge">
+        <input class="formBtn" type="submit" value="Trimite">
       </form>
       <br>
       <form id="contact" align="center" action="contact.php" method="POST">
         <h1 class="formTitle">Rezervă o sală de <br> evenimente:</h1>
+
         <label for="lastName">Nume:</label><br>
         <input type="text" name="lastName" required><br><br>
+
         <label for="firstName">Prenume:</label><br>
         <input type="text" name="firstName" required><br><br>
+
+        <label for="tel">Telefon:</label><br>
+        <input type="tel" name="tel" required><br><br>
+
         <label for="email">Email:</label><br>
         <input type="email" name="email" required><br><br>
-        <label for="message">Mesaj:</label><br>
-        <textarea rows="7" cols="40"></textarea><br><br>
-        <input type="reset" value="Șterge">
-        <input type="submit" value="Trimite">
+
+        <label for="adress">Adresa:</label><br>
+        <textarea name="adress" rows="3" cols="45"></textarea><br><br>
+
+        <label for="tip">Alegeți sala de evenimente: </label><br><br>
+         <select id="tip" name="tip">
+           <option value="31">Sala Ballroom</option>
+           <option value="32">Sala Grand Ballroom</option>
+         </select><br><br>
+
+         <label for="Date">Data evenimentului:</label><br>
+         <input type="date" name="Date" required><br><br>
+
+         <label for="events">Tipul evenimentului:</label><br>
+         <input list="events" name="events">
+          <datalist id="events">
+            <option value="Nuntă">
+            <option value="Botez">
+          </datalist><br><br>
+
+        <input class="formBtn" type="reset" value="Șterge">
+        <input class="formBtn" type="submit" value="Trimite">
       </form>
       <br>
     </div>

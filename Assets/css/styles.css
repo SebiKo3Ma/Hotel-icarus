@@ -45,12 +45,20 @@ h2{
   position: relative;
 }
 
-.content, .content2{
+.content{
   display: flex;
   justify-content: space-around;
   align-items: center;
   height: 80vh;
   width: 100%;
+}
+
+.content2{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  margin-top: 10px;
 }
 
 #contact{
@@ -270,7 +278,19 @@ h2{
 }
 
 form{
-  font-family: "Josefin Sans"
+  font-family: "Josefin Sans";
+}
+
+select, input, textarea{
+  font-family: "Josefin Sans";
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.formBtn{
+  padding: 5px;
+  border-radius: 10px;
+  font-family: "Josefin Sans";
 }
 
 
