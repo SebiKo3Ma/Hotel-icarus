@@ -37,12 +37,36 @@ h2{
   transition: .5s ease;
 }
 
-.nav, .details, .restNav{
+.overlay, .details, .restNav{
   position: absolute;
 }
 
 .container{
   position: relative;
+}
+
+.presentation{
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 15pt;
+}
+
+.locationImage{
+  width: 95%;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+#presentation{
+  display: none;
+}
+
+#locations{
+  display: flex;
+  justify-content: space-around;
 }
 
 .content{
@@ -76,8 +100,16 @@ h2{
   grid-template-columns: 49% 49%;
 }
 
+.grid-container-2{
+  grid-template-columns: 98%;
+}
+
 .menuItem{
   padding-top: 4px;
+}
+
+.restNav{
+  background-color: rgba(33, 37, 41, 0.5);
 }
 
 }
@@ -123,7 +155,7 @@ h2{
     border-radius: 10px;
   }
 
-  .grid-container{
+  .grid-container, .grid-container-2{
     grid-template-columns: 98%;
   }
 
@@ -197,7 +229,7 @@ h2{
 }
 
 
-
+/*Properties for buttons in index navbar and restaurant navbar*/
 .nav, .restNav{
   width: 100%;
   margin-top: 10px;
@@ -207,31 +239,13 @@ h2{
   z-index: 1;
 }
 
-.nav a:link{
+.navLink{
   color: #adb5bd;
   text-decoration: none;
-}
-
-.nav a:visited{
-  color: #adb5bd;
-  text-decoration: none;
-}
-
-.restNav a:link{
-  color: #adb5bd;
-  text-decoration: none;
-  background-color: rgba(33, 37, 41, 0.5);
   border-radius: 10px;
 }
 
-.restNav a:visited{
-  color: #adb5bd;
-  text-decoration: none;
-  background-color: rgba(33, 37, 41, 0.5);
-  border-radius: 10px;
-}
-
-.nav a:hover, .restNav a:hover{
+.navLink:hover{
   background-color: #ced4da;
   color: #fff;
   border-radius: 10px;
@@ -243,6 +257,12 @@ h2{
   font-family: 'Josefin Sans';
 }
 
+.overlay{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
 .bgImage{
   border-radius: 10px;
 }
@@ -252,7 +272,7 @@ h2{
   width: 100%;
 }
 
-.grid-container{
+.grid-container, .grid-container-2{
   display: grid;
   justify-content: space-around;
 }
