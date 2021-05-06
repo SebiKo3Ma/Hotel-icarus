@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  var c = 1;
+  var c = 0;
     $("#prezentare2").click(function(){
       if(c == 1){
         $("#restMenu").fadeToggle("slow", function(){$("#restPresent").fadeToggle("slow");});

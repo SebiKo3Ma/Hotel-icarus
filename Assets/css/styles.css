@@ -144,6 +144,18 @@ h2{
   grid-template-columns: 98%;
 }
 
+.menuGridContainer{
+  grid-template-columns: 30% 30% 30%;
+}
+
+.menuGridItem{
+  border-radius: 10px;
+  background-color: rgba(33, 37, 41, 0.5);
+  padding: 10px;
+  margin-top: 10px;
+  color: #adb5bd;
+}
+
 .menuItem{
   padding-top: 4px;
 }
@@ -190,6 +202,10 @@ h2{
     padding-bottom: 10px;
   }
 
+  .restNav, .nav{
+    background-color: rgba(33, 37, 41, 0.6);
+  }
+
 
   .container{
     background-color: #fff;
@@ -208,6 +224,10 @@ h2{
   .grid-container, .grid-container-2{
     grid-template-columns: 98%;
   }
+
+ .menuGridContainer{
+   grid-template-columns: 96%;
+ }
 
   .presentation, .roomPresentation, .eventPresentation{
     width: 95%;
@@ -333,7 +353,11 @@ h2{
   display: none;
 }
 
-#restPresent{
+#restMenu{
+  display: none;
+}
+
+#dpg, #sc, #d, #g, #p, #r, #pst, #ap, #s{
   display: none;
 }
 
@@ -357,13 +381,17 @@ h2{
   width: 100%;
 }
 
-.grid-container, .grid-container-2{
+.grid-container, .grid-container-2, .menuGridContainer{
   display: grid;
   justify-content: space-around;
 }
 
 .grid-item{
   margin-top: 10px;
+}
+
+.menuGridItem{
+  text-align: center;
 }
 
 #suite2{
