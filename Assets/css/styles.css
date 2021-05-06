@@ -112,8 +112,9 @@ h2{
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 80vh;
   width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .content2{
@@ -149,6 +150,16 @@ h2{
 
 .restNav{
   background-color: rgba(33, 37, 41, 0.6);
+}
+
+.menuHeader{
+  border-radius: 10px;
+  background-color: rgba(33, 37, 41, 0.6);
+  padding: 10px;
+  font-size: 15pt;
+  margin-top: 15px;
+  color: #adb5bd;
+
 }
 
 }
@@ -217,8 +228,9 @@ h2{
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    height: 80vh;
     width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
   }
 
   #contact{
@@ -321,6 +333,10 @@ h2{
   display: none;
 }
 
+#restPresent{
+  display: none;
+}
+
 .locationImage{
   width: 100%;
   border-radius: 10px;
@@ -376,6 +392,10 @@ h2{
   margin-right: 5px;
 }
 
+.menuHeader{
+  text-align: center;
+}
+
 form{
   font-family: "Josefin Sans";
 }
@@ -384,6 +404,10 @@ select, input, textarea{
   font-family: "Josefin Sans";
   padding: 5px;
   border-radius: 5px;
+}
+
+span{
+  cursor: pointer;
 }
 
 .formBtn{
@@ -398,11 +422,27 @@ select, input, textarea{
   height: 50px;
   background-color: #343a40;
   margin-top: 10px;
+  text-align: center;
+  color: #adb5bd;
+  font-size: 11pt;
 }
 
-.fContact{
-  position: fixed;
-  bottom: 0;
-  z-index: 1;
-  width: 100%;
+p a:link{
+  color: #adb5bd;
+  text-decoration: none;
+}
+
+p a:visited{
+  color: #adb5bd;
+  text-decoration: none;
+}
+
+p a:active{
+  color: #adb5bd;
+  text-decoration: none;
+}
+
+p a:hover{
+  color: #adb5bd;
+  text-decoration: none;
 }
