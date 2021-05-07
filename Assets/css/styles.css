@@ -108,6 +108,10 @@ h2{
   color: #adb5bd;
 }
 
+.nope{
+  display: none;
+}
+
 .content{
   display: flex;
   justify-content: space-around;
@@ -172,6 +176,10 @@ h2{
   margin-top: 15px;
   color: #adb5bd;
 
+}
+
+.footer{
+  font-size: 11pt;
 }
 
 }
@@ -265,6 +273,27 @@ h2{
     justify-content: space-around;
     align-items: center;
     width: 100%;
+  }
+
+  .menuHeader{
+    border-radius: 10px;
+    background-color: rgba(33, 37, 41, 0.6);
+    padding: 10px;
+    font-size: 15pt;
+    margin-top: 15px;
+    color: #adb5bd;
+  }
+
+  .menuGridItem{
+    border-style: inset;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .footer{
+    font-size: 9pt;
   }
 
 }
@@ -361,6 +390,15 @@ h2{
   display: none;
 }
 
+.menuTitleSelected{
+  background-color: #343a40;
+  border-radius: 20px;
+  padding: 5px;
+  color: #fff;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
 .locationImage{
   width: 100%;
   border-radius: 10px;
@@ -452,7 +490,6 @@ span{
   margin-top: 10px;
   text-align: center;
   color: #adb5bd;
-  font-size: 11pt;
 }
 
 p a:link{
