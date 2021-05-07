@@ -2,6 +2,7 @@
   <html>
     <head>
       <meta charset="UTF-8">
+      <link rel="icon" href="Assets/images/icon.png">
       <title>Rezervări</title>
       <meta name="viewport" content="width=device-width,initial-scale=1">
       <script type="text/javascript" src="Assets/scripts/jquery-3.4.1.min.js"></script>
@@ -34,7 +35,7 @@
 
     <div class="content2">
       <br>
-      <form id="contact" align="center" action="camere.php" method="POST">
+      <form class="contact" align="center" action="camere.php" method="POST">
         <h1 class="formTitle">Rezervă o cameră:</h1>
         <br><br>
 
@@ -74,7 +75,7 @@
       </form>
 
       <br>
-      <form id="contact" align="center" action="conferinte.php" method="POST">
+      <form class="contact" align="center" action="conferinte.php" method="POST">
         <h1 class="formTitle">Rezervă o sală de <br> conferințe:</h1>
 
         <label for="lastName">Nume:</label><br>
@@ -106,12 +107,12 @@
 
            <div>
              <label for="startTime">Ora începerii:</label><br>
-             <input type="time" name="startTime" required><br><br>
+             <input type="time" name="startTime" required min="08:00" max="23:00" step="3600"><br><br>
            </div>
 
            <div>
            <label for="endTime">Ora încheierii:</label><br>
-           <input type="time" name="endTime" required><br><br>
+           <input type="time" name="endTime" required min="08:45" max="23:45" step="3600"><br><br>
          </div>
 
        </div>
@@ -120,7 +121,7 @@
         <input class="formBtn" type="submit" value="Trimite">
       </form>
       <br>
-      <form id="contact" align="center" action="evenimente.php" method="POST">
+      <form class="contact" align="center" action="evenimente.php" method="POST">
         <h1 class="formTitle">Rezervă o sală de <br> evenimente:</h1>
 
         <label for="lastName">Nume:</label><br>

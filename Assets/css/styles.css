@@ -10,6 +10,14 @@ h2{
   margin-right: 10px;
 }
 
+/*Restaurant fix*/
+
+@media (max-width: 1300px){
+  .menuGridItem{
+    font-size: 10.5pt;
+  }
+}
+
 
 /*Properties for desktop version*/
 
@@ -128,7 +136,7 @@ h2{
   margin-top: 10px;
 }
 
-#contact{
+.contact, #contact{
   background-color: #fff;
   padding: 40px;
   border-radius: 10px;
@@ -260,7 +268,7 @@ h2{
     margin-bottom: 15px;
   }
 
-  #contact{
+  .contact, #contact{
     background-color: #fff;
     padding: 20px;
     border-radius: 10px;
