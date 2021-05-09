@@ -1,6 +1,6 @@
 Hotel Icarus - prezentare si rezervari
 Autor: Cozma Gabriel-Cosmin-Sebastian
-Profesori îndrumători: Bohm Cristina, Iordaiche Eugenia-Cristina
+Profesori îndrumători: Bohm Cristina, Iordaiche Eugenia-Cristiana
 
 Rezervări: Cameră, Sală de conferințe sau Sală de evenimente
 
